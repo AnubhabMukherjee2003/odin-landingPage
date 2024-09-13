@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    padding: 1rem 0;
+    width:100vw
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    width: 70%;
+    margin: auto;
+}
+.hero .container{
+    display: block;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero .image {
+    background-color: #ddd;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    padding: 4rem 0;
+}
+
+.information h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.information .cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.information .card {
+    background-color: #ddd;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #eee;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #222;
+}
+.quote .container{
+    display: block;
+}
+
+.call-to-action {
+    background-color: #ddd;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color:#222
+}
+
+.call-to-action button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+  width: 100%;
+}
